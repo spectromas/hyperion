@@ -20,7 +20,6 @@ S="${WORKDIR}/ambiance-blackout-colors"
 
 
 src_install() {
-	exeinto "Ambiance-Blackout-Colors"
 	insinto /usr/share/themes
 	doins -r *
 

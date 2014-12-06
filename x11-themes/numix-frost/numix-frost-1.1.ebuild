@@ -19,7 +19,6 @@ RESTRICT="binchecks strip"
 S="${WORKDIR}/numix-frost/"
 
 src_install() {
-	exeinto "numix-frost"
 	insinto /usr/share/themes
 	doins -r *
 }
