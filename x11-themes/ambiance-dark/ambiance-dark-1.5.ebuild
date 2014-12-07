@@ -4,9 +4,9 @@
 
 EAPI="5"
 
-DESCRIPTION="a variety of dark themes"
-HOMEPAGE="http://www.ravefinity.com"
-SRC_URI="https://launchpad.net/~noobslab/+archive/ubuntu/themes/+files/ambiance-blackout-colors_14.04.1%7Eutopic%7ENoobsLab.com.tar.gz"
+DESCRIPTION="Ambiance-Dark is modified theme version of original ambiance."
+HOMEPAGE="http://www.noobslab.vom"
+SRC_URI="https://launchpad.net/~noobslab/+archive/ubuntu/themes/+files/ambiance-dark_1.5%7Etrusty%7ENoobsLab.com.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
@@ -16,8 +16,7 @@ RDEPEND="x11-themes/gtk-engines-murrine"
 
 RESTRICT="binchecks strip"
 
-S="${WORKDIR}/ambiance-blackout-colors"
-
+S="${WORKDIR}/ambiance-dark"
 
 src_install() {
 	insinto /usr/share/themes

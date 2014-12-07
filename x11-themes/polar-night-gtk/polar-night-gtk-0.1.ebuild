@@ -4,9 +4,9 @@
 
 EAPI="5"
 
-DESCRIPTION="a variety of dark themes"
-HOMEPAGE="http://www.ravefinity.com"
-SRC_URI="https://launchpad.net/~noobslab/+archive/ubuntu/themes/+files/ambiance-blackout-colors_14.04.1%7Eutopic%7ENoobsLab.com.tar.gz"
+DESCRIPTION="Polar Night theme is a dark variant of flatts theme"
+HOMEPAGE="http://www.noobslab.com"
+SRC_URI="https://launchpad.net/~noobslab/+archive/ubuntu/themes/+files/polar-night-gtk_0.1%7Eutopic%7ENoobslab.com.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
@@ -16,10 +16,9 @@ RDEPEND="x11-themes/gtk-engines-murrine"
 
 RESTRICT="binchecks strip"
 
-S="${WORKDIR}/ambiance-blackout-colors"
-
+S="${WORKDIR}/polar-night"
 
 src_install() {
 	insinto /usr/share/themes
-	doins -r Amb*
+	doins -r po*
 }
