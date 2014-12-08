@@ -12,7 +12,8 @@ LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="x86 amd64"
 
-RDEPEND="x11-themes/gtk-engines-murrine"
+RDEPEND="x11-themes/gtk-engines-murrine
+		x11-themes/gnome-themes-standard"
 
 RESTRICT="binchecks strip"
 
