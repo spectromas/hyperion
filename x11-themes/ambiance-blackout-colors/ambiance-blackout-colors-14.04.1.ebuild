@@ -16,10 +16,10 @@ RDEPEND="x11-themes/gtk-engines-murrine"
 
 RESTRICT="binchecks strip"
 
-S="${WORKDIR}/ambiance-blackout-colors"
+S="${WORKDIR}/ambiance-blackout-colors/Ambiance-Blackout-Colors"
 
 
 src_install() {
 	insinto /usr/share/themes
-	doins -r Amb*
+	doins -r *
 }
